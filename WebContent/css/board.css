@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+table, th, td{
+	border: 1px solid #408080;
+	border-collapse: collapse;
+	font-familly: verdana, sans-serif;
+	color: #555;
+}
+
+th, td {
+	padding: 5px;
+}
+
+table th{
+	background: #e6edf5;
+	color: #4f76a3;
+}
+
+
+/*
+ tr:nth-child(even){
+	background: #f7f9fc;
+}
+ */
+
+tr.even{
+	background: #f7f9fc;	
+}
+
+/* 마우스 갖다대면 */
+table.list tr:hover{
+	background: #fefdcf;
+}
+
+td a:link, td a:visited {
+	color: #718abe;
+	text-decoration: none;
+}
+
+td a:hover {
+	text-decoration: underline;
+}
